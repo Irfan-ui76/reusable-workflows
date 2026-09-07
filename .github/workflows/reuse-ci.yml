@@ -13,9 +13,9 @@ on:
           type: boolean
           default: true
           required: false
-     # secrets:
-     #    SONAR_TOKEN:
-     #       required: true
+     secrets:
+        SONAR_TOKEN:
+           required: true
        
    # workflow_dispatch:
    # push:
